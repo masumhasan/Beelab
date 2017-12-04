@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 /*======================================
 
  [ -Main Stylesheet-
@@ -33,13 +33,13 @@
 /*-------------Import fonts ---------------------------------------*/
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700,900|Raleway:400,800,900,600,700,500|Montserrat:400,700);
 @font-face {
-    font-family: 'bebas_neuebold';
-    src: url('https://cdn.rawgit.com/worldofmasum/Beelab/706045d8/bebasneue_bold-webfont.eot');
-    src: url('https://cdn.rawgit.com/worldofmasum/Beelab/706045d8/bebasneue_bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('https://cdn.rawgit.com/worldofmasum/Beelab/706045d8/bebasneue_bold-webfont.woff2') format('woff2'),
-         url('https://cdn.rawgit.com/worldofmasum/Beelab/706045d8/bebasneue_bold-webfont.woff') format('woff'),
-         url('https://cdn.rawgit.com/worldofmasum/Beelab/8a973793/bebasneue_bold-webfont.ttf') format('truetype'),
-         url('https://cdn.rawgit.com/worldofmasum/Beelab/8a973793/bebasneue_bold-webfont.svg#bebas_neuebold') format('svg');
+ font-family: 'bebas_neuebold';
+    src: url('../fonts/bebasneue_bold-webfont.eot');
+    src: url('../fonts/bebasneue_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebasneue_bold-webfont.woff2') format('woff2'),
+         url('../fonts/bebasneue_bold-webfont.woff') format('woff'),
+         url('../fonts/bebasneue_bold-webfont.ttf') format('truetype'),
+         url('../fonts/bebasneue_bold-webfont.svg#bebas_neuebold') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -311,7 +311,7 @@ header {
 }
 .logo-holder {
 	float:left;
-	max-width:200px;
+	
 	height:50px;
 	position:relative;
 	padding:0 30px;
